@@ -1,0 +1,66 @@
+.page-wrapper {
+  border: 10px solid lightblue;  /* Big border around the entire page */
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 900px;
+  margin: 30px auto; /* Center the page content horizontally */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: white; /* Optional: background color inside the border */
+}
+
+.welcome-container {
+  display: flex;
+  border: 2px solid lightblue; /* Inner border for the content area */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-side {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-side img {
+  max-width: 100%;
+  height: auto;
+}
+
+.right-side {
+  width: 70%;
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007BFF;
+  color: white;
+}

@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="left-section">
+      <img src="../../assets/images/person-with-laptop.png" alt="Person with Laptop">
+    </div>
+    <div class="right-section">
+      <h2>Welcome Back!</h2>
+      <input type="email" placeholder="Enter Email ID" [(ngModel)]="email">
+      <input type="password" placeholder="Enter Password" [(ngModel)]="password">
+      <button (click)="login()">Next</button>
+  
+      <p *ngIf="isLoginFailed" class="error">Incorrect password, try again.</p>
+    </div>
+  </div>
+  

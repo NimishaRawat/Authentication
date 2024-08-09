@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="left-section">
+      <img src="../../assets/images/person-with-laptop.png" alt="Person with Laptop">
+    </div>
+    <div class="right-section">
+      <div *ngIf="!isStepTwo">
+        <h2>Create Account</h2>
+        <input type="email" placeholder="Enter Email ID" [(ngModel)]="email">
+        <input type="text" placeholder="Enter Full Name" [(ngModel)]="fullName">
+        <input type="password" placeholder="Create Password" [(ngModel)]="password">
+        <button (click)="nextStep()">Next</button>
+      </div>
+  
+      <div *ngIf="isStepTwo">
+        <button class="back-btn" (click)="goBack()">← Go Back</button>
+        <h2>Create Account</h2>
+        <input type="text" placeholder="Organization Name" [(ngModel)]="organizationName">
+        <input type="text" placeholder="Organization ID" [(ngModel)]="organizationId">
+        <select [(ngModel)]="designation">
+          <option value="">Select Designation</option>
+          <option value="dev">Developer</option>
+          <option value="qa">QA</option>
+          <!-- Add more options as needed -->
+        </select>
+        <input type="date" placeholder="Birth Date" [(ngModel)]="birthDate">
+        <input type="text" placeholder="City" [(ngModel)]="city">
+        <input type="text" placeholder="Pincode" [(ngModel)]="pincode">
+        <button (click)="signUp()">Next</button>
+      </div>
+    </div>
+  </div>
+  
