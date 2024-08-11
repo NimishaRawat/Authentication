@@ -12,7 +12,7 @@ import { FormsModule } from '@angular/forms';
 export class WelcomeComponent {
   email: string = '';
   phoneNumber: string = '';
-
+ 
   constructor(private router: Router) {}
 
   onNextClick(): void {

@@ -55,12 +55,9 @@ button {
   padding: 10px 20px;
   background-color: lightblue;
   border: none;
+  color: white;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #007BFF;
-  color: white;
-}

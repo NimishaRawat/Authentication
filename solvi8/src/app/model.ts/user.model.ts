@@ -1,4 +1,3 @@
-// src/app/models/user.model.ts
 export interface User {
   email: string;
   phoneNumber?: string;
@@ -11,6 +10,6 @@ export interface User {
   pincode?: string;
   }
   
-  // src/app/models/organization.model.ts
+ 
   
   

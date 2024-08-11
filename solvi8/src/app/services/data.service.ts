@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { AppConfig } from '../app.config';
+import { appConfig } from '../app.config';
 import { Organization } from '../model.ts'; 
+import { AppConfig } from './app.config';
 
 @Injectable({
   providedIn: 'root'

@@ -11,7 +11,7 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./signup.component.css'],
 })
 export class SignupComponent {
-  email: string = '';
+  email: string = ''; 
   fullName: string = '';
   password: string = '';
   organizationName: string = '';

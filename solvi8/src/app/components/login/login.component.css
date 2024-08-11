@@ -1,36 +1,47 @@
+.page-wrapper {
+  border: 10px solid lightblue; /* Big border around the entire page */
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 900px;
+  margin: 30px auto; /* Center the page content horizontally */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-color: white; /* Optional: background color inside the border */
+}
+
 .container {
-    display: flex;
-    border: 1px solid lightblue;
-    padding: 20px;
-  }
-  
-  .left-section {
-    flex: 30%;
-    padding: 20px;
-  }
-  
-  .right-section {
-    flex: 70%;
-    padding: 20px;
-  }
-  
-  input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-  }
-  
-  button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .error {
-    color: red;
-    margin-top: 10px;
-  }
-  
+  display: flex;
+  border: 2px solid lightblue; /* Inner border for the content area */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-section {
+  flex: 30%;
+  padding: 20px;
+}
+
+.right-section {
+  flex: 70%;
+  padding: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+button {
+  padding: 10px 20px;
+  background-color: lightblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
